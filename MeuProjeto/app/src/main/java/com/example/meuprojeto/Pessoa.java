@@ -4,22 +4,22 @@ public class Pessoa {
 
     private int codigo;
     private String nome;
-    private String telefone;
     private String email;
+    private String telefone;
     private String endereco;
 
-    public Pessoa(int codigo, String nome, String telefone, String email, String endereco) {
+    public Pessoa(int codigo, String nome, String email, String telefone, String endereco) {
         this.codigo = codigo;
         this.nome = nome;
-        this.telefone = telefone;
         this.email = email;
+        this.telefone = telefone;
         this.endereco = endereco;
     }
 
     public Pessoa(String nome, String telefone, String email, String endereco) {
         this.nome = nome;
-        this.telefone = telefone;
         this.email = email;
+        this.telefone = telefone;
         this.endereco = endereco;
     }
 
